@@ -107,23 +107,27 @@
   <div class="mob-0pad-container">
     <div class="w-layout-grid grid-row-0 mt-100">
       <div class="w-layout-grid table-row bg-black-80p">
-        <div class="_100w-vert-left-al">
+        <div class="table-title-row">
           <div class="subtitle">Co otrzymujesz</div>
         </div>
-        <div class="subtitle table-title-row"> Bezpłatnie</div>
-        <div class="subtitle table-title-row">Subskrypcja</div>
-        <div class="subtitle hide-mob">Pudełko</div>
+
+        <div class="flex flex-row table-header-mobile justify-end pr-8" >
+          <div class="subtitle  table-header">Bezpłatnie</div>
+          <div class="subtitle  table-header">Subskrypcja</div>
+          <div class="subtitle  table-header">Pudełko</div>
+        </div>
       </div>
       {#each price as {title, free, box, subscription}}
       <div class="w-layout-grid table-row">
-        <div class="_100w-vert-left-al">
           <div class="subtitle table-title-row">
             {title}
           </div>
+
+        <div class="flex flex-row table-header-mobile" >
+          <img src="/images/{free ? 'check-icon.svg': 'price-error.svg'}" loading="lazy" alt="{free ? '': ''}">
+          <img src="/images/{box ? 'check-icon.svg': 'price-error.svg'}" loading="lazy" alt="{box ? '': ''}">
+          <img src="/images/{subscription ? 'check-icon.svg': 'price-error.svg'}" loading="lazy" alt="{subscription ? '': ''}">
         </div>
-        <img src="/images/{free ? 'check-icon.svg': 'price-error.svg'}" loading="lazy" alt="{free ? '': ''}">
-        <img src="/images/{box ? 'check-icon.svg': 'price-error.svg'}" loading="lazy" alt="{box ? '': ''}">
-        <img src="/images/{subscription ? 'check-icon.svg': 'price-error.svg'}" loading="lazy" alt="{subscription ? '': ''}">
         <!--  class="hide-mob" -->
       </div>
       {/each}
