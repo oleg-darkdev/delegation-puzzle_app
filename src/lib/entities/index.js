@@ -1,23 +1,36 @@
 // landing
-// import CompoentName from './landing/CompoentName.svelte';
-// import CompoentName from './landing/CompoentName.svelte';
-// import CompoentName from './landing/CompoentName.svelte';
-// import CompoentName from './landing/CompoentName.svelte';
-// import CompoentName from './landing/CompoentName.svelte';
-// import CompoentName from './landing/CompoentName.svelte';
-// import CompoentName from './landing/CompoentName.svelte';
-// import CompoentName from './landing/CompoentName.svelte';
-// import CompoentName from './landing/CompoentName.svelte';
-// import CompoentName from './landing/CompoentName.svelte';
-// import CompoentName from './landing/CompoentName.svelte';
+import FaqCard from './landing/FaqCard.svelte';
+// import ComponenTemplate from './landing/ComponenTemplate.svelte';
+// import ComponenTemplate from './landing/ComponenTemplate.svelte';
+// import ComponenTemplate from './landing/ComponenTemplate.svelte';
+// import ComponenTemplate from './landing/ComponenTemplate.svelte';
+// import ComponenTemplate from './landing/ComponenTemplate.svelte';
+// import ComponenTemplate from './landing/ComponenTemplate.svelte';
+// import ComponenTemplate from './landing/ComponenTemplate.svelte';
+// import ComponenTemplate from './landing/ComponenTemplate.svelte';
+// import ComponenTemplate from './landing/ComponenTemplate.svelte';
+// import ComponenTemplate from './landing/ComponenTemplate.svelte';
 
 // app
-// import CompoentName from './app/CompoentName.svelte';
-// import CompoentName from './app/CompoentName.svelte';
-// import CompoentName from './app/CompoentName.svelte';
-// import CompoentName from './app/CompoentName.svelte';
-// import CompoentName from './app/CompoentName.svelte';
-// import CompoentName from './app/CompoentName.svelte';
-// import CompoentName from './app/CompoentName.svelte';
+// import ComponenTemplate from './app/ComponenTemplate.svelte';
+// import ComponenTemplate from './app/ComponenTemplate.svelte';
+// import ComponenTemplate from './app/ComponenTemplate.svelte';
+// import ComponenTemplate from './app/ComponenTemplate.svelte';
+// import ComponenTemplate from './app/ComponenTemplate.svelte';
+// import ComponenTemplate from './app/ComponenTemplate.svelte';
+// import ComponenTemplate from './app/ComponenTemplate.svelte';
 
-// export { CompoentName, CompoentName, CompoentName, CompoentName, CompoentName, CompoentName, CompoentName, CompoentName, CompoentName, CompoentName, CompoentName, CompoentName };
+export {
+	FaqCard,
+	// ComponenTemplate,
+	// ComponenTemplate,
+	// ComponenTemplate,
+	// ComponenTemplate,
+	// ComponenTemplate,
+	// ComponenTemplate,
+	// ComponenTemplate,
+	// ComponenTemplate,
+	// ComponenTemplate,
+	// ComponenTemplate,
+	// ComponenTemplate
+};
