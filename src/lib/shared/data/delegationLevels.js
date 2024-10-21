@@ -1,80 +1,105 @@
 const delegationLevels = [
 	{
-		title: `LoremIpsum.`,
+		title: `Powiedzieć`,
+		subTitle: 'Powiem im to',
+		// title: `Tell`,
+		// subTitle: 'I will tell them',
 		shortDesc: `Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to.`,
 		desc: [
 			`Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.`,
 			`Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`
 		],
 		id: 1,
-		icon: '/images/logo.svg',
-		img: '/images/logo.svg'
+		textColor: 'text-tell',
+		bgColor: 'bg-sell',
+		icon: 'tell_icon.svg',
+		img: 'logo.svg'
 	},
 	{
-		title: `LoremIpsum.`,
+		title: `Sprzedaż`,
+		subTitle: 'Spróbuję im to sprzedać',
+		// title: `Sell`,
+		// subTitle: 'I will try and sell it to them',
 		shortDesc: `Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to.`,
 		desc: [
 			`Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.`,
 			`Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`
 		],
 		id: 2,
-		icon: '/images/logo.svg',
-		img: '/images/logo.svg'
+		textColor: 'text-sell',
+		bgColor: 'bg-sell',
+		icon: 'sell_icon.svg',
+		img: 'logo.svg'
 	},
 	{
-		title: `LoremIpsum.`,
+		title: `Konsultacja`,
+		subTitle: 'Skonsultuję się i podejmę decyzję',
 		shortDesc: `Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to.`,
 		desc: [
 			`Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.`,
 			`Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`
 		],
 		id: 3,
-		icon: '/images/logo.svg',
-		img: '/images/logo.svg'
+		textColor: 'text-consult',
+		bgColor: 'bg-consult',
+		icon: 'consult_icon.svg',
+		img: 'logo.svg'
 	},
 	{
-		title: `LoremIpsum.`,
+		title: `Zgadzam się`,
+		subTitle: 'Uzgodnimy to razem',
 		shortDesc: `Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to.`,
 		desc: [
 			`Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.`,
 			`Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`
 		],
 		id: 4,
-		icon: '/images/logo.svg',
-		img: '/images/logo.svg'
+		textColor: 'text-agree',
+		bgColor: 'bg-agree',
+		icon: 'agree_icon.svg',
+		img: 'logo.svg'
 	},
 	{
-		title: `LoremIpsum.`,
+		title: `Doradztwo`,
+		subTitle: 'Doradzę, ale to oni zdecydują',
 		shortDesc: `Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to.`,
 		desc: [
 			`Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.`,
 			`Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`
 		],
 		id: 5,
-		icon: '/images/logo.svg',
-		img: '/images/logo.svg'
+		textColor: 'text-advise',
+		bgColor: 'bg-advise',
+		icon: 'advise_icon.svg',
+		img: 'logo.svg'
 	},
 	{
-		title: `LoremIpsum.`,
+		title: `Zapytanie`,
+		subTitle: 'Zapytam po tym, jak podejmą decyzję',
 		shortDesc: `Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to.`,
 		desc: [
 			`Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.`,
 			`Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`
 		],
 		id: 6,
-		icon: '/images/logo.svg',
-		img: '/images/logo.svg'
+		textColor: 'text-inquire',
+		bgColor: 'bg-inquire',
+		icon: 'inquire_icon.svg',
+		img: 'logo.svg'
 	},
 	{
-		title: `LoremIpsum.`,
+		title: `Delegowanie`,
+		subTitle: 'W pełni oddeleguję',
 		shortDesc: `Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to.`,
 		desc: [
 			`Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.`,
 			`Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`
 		],
 		id: 7,
-		icon: '/images/logo.svg',
-		img: '/images/logo.svg'
+		icon: 'delegate_icon.svg',
+		textColor: 'text-delegate',
+		bgColor: 'bg-delegate',
+		img: 'logo.svg'
 	}
 ];
 
