@@ -2,7 +2,7 @@
 	import '../app.css';
 </script>
 
-<div class="bg-black overflow-hidden">
+<div class="overflow-hidden">
 	<slot />
 </div>
 
