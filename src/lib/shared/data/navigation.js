@@ -1,7 +1,7 @@
 const navigation = [
 	{
-		title: 'Lorem ',
-		link: '/'
+		title: 'O grze',
+		link: '#about'
 	},
 	{
 		title: 'Dla kogo',
