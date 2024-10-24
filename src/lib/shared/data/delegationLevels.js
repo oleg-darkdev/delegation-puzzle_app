@@ -86,7 +86,9 @@ const delegationLevels = [
 		bgColor: 'bg-inquire',
 		icon: 'inquire_icon.svg',
 		img: 'logo.svg'
-	},
+  },
+
+  
 	{
 		title: `Delegowanie`,
 		subTitle: 'W pełni oddeleguję',
