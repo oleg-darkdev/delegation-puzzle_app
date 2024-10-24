@@ -31,7 +31,6 @@
           </a>
         {/each}
 
-
         <!-- <div class="flex-vert-center-al">
             <div class="w-layout-grid grid-row-10">
               <p class="txt-on-dark">And more..</p>

@@ -37,6 +37,7 @@
       <!-- <a href="#" class="btn btn-white w-button">Get Started</a> -->
       </div>
 
+      
       <button on:click={()=> showMenu = !showMenu} class="menu-btn w-inline-block">
         <img src="/images/menu.svg" loading="lazy" alt="" class="menu-icon">
       </button>

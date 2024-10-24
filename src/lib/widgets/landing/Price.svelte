@@ -123,6 +123,7 @@
             {title}
           </div>
 
+          
         <div class="flex flex-row table-header-mobile" >
           <img src="/images/{free ? 'check-icon.svg': 'price-error.svg'}" loading="lazy" alt="{free ? '': ''}">
           <img src="/images/{box ? 'check-icon.svg': 'price-error.svg'}" loading="lazy" alt="{box ? '': ''}">

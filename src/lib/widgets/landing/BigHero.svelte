@@ -86,10 +86,10 @@
     top: 30vh;
   }
   .btn-txt {
-  position: relative;
-  z-index: 2;
-  font-size: 0.8em;
-  font-weight: 500;
-}
+    position: relative;
+    z-index: 2;
+    font-size: 0.8em;
+    font-weight: 500;
+  }
 }
 </style>

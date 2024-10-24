@@ -36,6 +36,7 @@
       </p>
     </div>
 
+    
     <div class="w-layout-grid grid-3col col-80 mt-100">
       {#each targetAudience as {title, desc}}
         <div class="w-layout-grid grid-row-20 grid-dist-top-left-al">

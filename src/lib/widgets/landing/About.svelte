@@ -51,6 +51,7 @@
       <div class="ctm-proj-wrap left bg-tenten-black">
         <img src="/images/logo.svg" loading="lazy" alt="" class="w-64 mb-50">
 
+
         <div class="subtitle mb-10 txt-white">About</div>
         <p class="body-small txt-on-dark mb-50">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
         <div class="overline mb-20">Lorem Ipsum has</div>

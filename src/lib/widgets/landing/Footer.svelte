@@ -25,6 +25,7 @@
           </div>
         </div>
       </div>
+      
       <img src="/images/logo.svg" loading="lazy" class='w-full mt-100' alt="Delegation puzzle logo">
       <!-- <div class="footer-copyr-wrap mt-100">
         <div  class="copyright-txt txt-on-dark">©2024-2025 44games™. All rights reserved.</div>
