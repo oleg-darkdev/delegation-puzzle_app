@@ -1,54 +1,55 @@
 const faq = [
 	{
-		q: `Lorem Ipsum is simply dummy text of the?`,
+		q: `Na jakich danych opiera się gra?`,
 		a: [
-			`Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
-			`It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.`
+			`Gra oparta jest na modelu delegowania Jürgena Appelo, który składa się z siedmiu poziomów delegowania - od maksymalnej kontroli do pełnej autonomii.`,
+			`Model ten pomaga rozwijać umiejętności zarządzania, które są ważne zarówno dla liderów zespołów, jak i pracowników, którzy chcą zrozumieć zasady delegowania.`
 		]
 	},
 	{
-		q: `Lorem Ipsum is simply dummy text of the?`,
+		q: `Dla kogo jest odpowiednia gra?`,
 		a: [
-			`Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
-			`It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.`
+			`Założycieli małych i średnich firm, startupów`,
+			`Menedżerów i liderów zespołów`,
+			`Pracowników poszukujących samoorganizacji i indywidualnej odpowiedzialności`
 		]
 	},
 	{
-		q: `Lorem Ipsum is simply dummy text of the?`,
+		q: `Czy gra może być wykorzystywana do szkoleń i warsztatów?`,
 		a: [
-			`Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
-			`It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.`
+			`Tak, gra i towarzysząca jej aplikacja webowa są idealne do szkoleń korporacyjnych, warsztatów i programów edukacyjnych.`,
+			`Pomaga grupom lepiej zrozumieć delegowanie i rozwijać umiejętności zarządzania w praktycznym formacie.`
 		]
 	},
 	{
-		q: `Lorem Ipsum is simply dummy text of the?`,
+		q: `Czy gra nadaje się do wykorzystania na uczelniach?`,
 		a: [
-			`Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
-			`It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.`
+			`Tak, gra jest idealna do wykorzystania na uniwersytetach, zwłaszcza na wydziałach zarządzania, biznesu, psychologii i nauk społecznych. Pomaga studentom rozwijać praktyczne umiejętności zarządzania, delegowania i pracy zespołowej.`,
+			` Dzięki grze studenci mogą zrozumieć podstawy przywództwa, nauczyć się, jak zrównoważyć kontrolę i zaufanie oraz skutecznie przydzielać zadania. Ponadto gra pozwala uniwersytetom wprowadzać innowacyjne metody nauczania, czyniąc proces uczenia się interaktywnym i zorientowanym na praktykę.`
 		]
 	},
 	{
-		q: `Lorem Ipsum is simply dummy text of the?`,
+		q: `Rola aplikacji webowej w grze?`,
 		a: [
-			`Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
-			`It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.`
+			`Do gry dołączona jest interaktywna aplikacja webowa, która wzbogaca grę i pomaga wzmocnić umiejętności delegowania, czyniąc edukację jeszcze bardziej dostępną i interaktywną.`
 		]
 	},
+
 	{
-		q: `Lorem Ipsum is simply dummy text of the?`,
+		q: `Czy grę można dostosować do różnych poziomów doświadczenia pracowników?`,
 		a: [
-			`Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
-			`It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.`
+			`Tak, gra jest elastyczna i odpowiednia dla różnych poziomów doświadczenia.`,
+			`Początkujący mogą nauczyć się podstaw delegowania, podczas gdy doświadczeni menedżerowie mogą nauczyć się bardziej złożonych aspektów, takich jak równoważenie kontroli i autonomii w celu zwiększenia produktywności zespołu.`
 		]
 	},
+
 	{
-		q: `Lorem Ipsum is simply dummy text of the?`,
+		q: `Projekt Puzzle Management?`,
 		a: [
-			`Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
-			`It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.`
+			`Puzzle Management to seria edukacyjnych gier planszowych i aplikacji webowych, mających na celu rozwijanie umiejętności zarządzania. „7 poziomów delegowania” jest częścią tego projektu i doskonale uzupełnia pozostałe gry poświęcone komunikacji, planowaniu i realizacji zadań.`,
+			``
 		]
 	}
 ];
-
 
 export default faq;

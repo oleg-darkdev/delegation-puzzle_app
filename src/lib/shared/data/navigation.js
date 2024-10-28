@@ -2,16 +2,20 @@ const navigation = [
 	{
 		title: 'O grze',
 		link: '#about'
-  },
-  
+	},
+	{
+		title: 'Poziomy delegowania',
+		link: '#levels'
+	},
+
 	{
 		title: 'Dla kogo',
 		link: '#for-whom'
 	},
-	{
-		title: 'Cennik',
-		link: '#pricing'
-	},
+	// {
+	// 	title: 'Cennik',
+	// 	link: '#pricing'
+	// },
 	{
 		title: 'Contact',
 		link: '#contact'
@@ -21,6 +25,5 @@ const navigation = [
 		link: '#faq'
 	}
 ];
-
 
 export default navigation;
