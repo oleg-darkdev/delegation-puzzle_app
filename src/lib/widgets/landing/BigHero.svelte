@@ -11,17 +11,23 @@
   <div class="pg-hero-mob-pb">
     <div class="container">
       <div class="grid-row-30 _70w rel-z-2">
-        <h1  class="txt-white">Rozłóż delegowanie zadań w zespole.</h1>
+        <h1  class="txt-white">Rozłóż delegowanie zadań - jak puzzle.</h1>
         <div  class="_70w">
           <p class="paragraph txt-on-dark mb-1">
             Wykorzystaj <span class="txt-col-yellow">Delegation Puzzle</span>, aby wyjaśnić, kto jest odpowiedzialny za co i na jakim poziomie.
           </p>
-          <p class="paragraph txt-on-dark">
+          <p class="paragraph txt-on-dark ">
             Jest to edukacyjna gra planszowa, której możesz użyć, aby zacząć praktykować zaangażowanie pracowników poprzez kontrolowaną samoorganizację i podejmowania decyzji.
           </p>
+
+          <div class='py-6'>
+            <a href="#about" class="btn btn-black w-button z-20">Co to #delegation-puzzle?</a>
+          </div>
         </div>
+        
       </div>
     </div>
+    
   </div>
   <div class="abs-wrap flex-hor-all-cent">
     <div class="abs-container flex-hor-all-cent">

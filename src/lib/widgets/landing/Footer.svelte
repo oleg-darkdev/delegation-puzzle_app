@@ -11,11 +11,11 @@
   <div class="container">
     <div class="footer-content">
       <div class="w-layout-grid grid-row-30 _40w ">
-        <div class="overline">Lorem Ipsum is simply dummy text</div>
-        <h3 class="h3-heading">Lorem Ipsum is simply dummy text. </h3>
-        <p class="txt-on-dark">Lorem Ipsum is simply dummy text</p>
+        <!-- <div class="overline">Lorem Ipsum is simply dummy text</div> -->
+        <h3 class="h3-heading">Rozłóż delegowanie zadań - jak puzzle.</h3>
+        <p class="overline z-20">Projekt jest częścią projektu <a href="https://puzzle-management.vercel.app/" class='txt-col-yellow' target="_blank">Puzzle Management</a> </p>
       </div>
-      <div class="abs-wrap flex-hor-all-cent">
+      <div class="abs-wrap flex-hor-all-cent ">
         <div class="abs-container flex-hor-all-cent">
           <div class="footer-cta-wrap">
             <img src="/images/footer_doodle_arrow.svg" loading="lazy" alt="doodle arrow" class="footer-arrow">
@@ -26,7 +26,7 @@
         </div>
       </div>
       
-      <img src="/images/logo.svg" loading="lazy" class='w-full mt-100' alt="Delegation puzzle logo">
+      <img src="/images/logo.svg" loading="lazy" class='h-60 mt-100' alt="Delegation puzzle logo">
       <!-- <div class="footer-copyr-wrap mt-100">
         <div  class="copyright-txt txt-on-dark">©2024-2025 44games™. All rights reserved.</div>
         <img src="/images/logo.svg" loading="lazy" class='h-16' alt="Delegation puzzle logo">
