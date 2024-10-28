@@ -7,48 +7,10 @@
   export let data;
 
 
-  const otherBoardgames = [
-    {
-      title: 'Lorem impsum',
-      link: '/',
-      logo: 'logos/darkdev_turq.svg'
-    },
-    {
-      title: 'Lorem impsum',
-      link: '/',
-      logo: 'logos/darkdev_turq.svg'
-    },
-    {
-      title: 'Lorem impsum',
-      link: '/',
-      logo: 'logos/darkdev_turq.svg'
-    },
-    {
-      title: 'Lorem impsum',
-      link: '/',
-      logo: 'logos/darkdev_turq.svg'
-    },
-    {
-      title: 'Lorem impsum',
-      link: '/',
-      logo: 'logos/darkdev_turq.svg'
-    },
-    {
-      title: 'Lorem impsum',
-      link: '/',
-      logo: 'logos/darkdev_turq.svg'
-    },
-    {
-      title: 'Lorem impsum',
-      link: '/',
-      logo: 'logos/darkdev_turq.svg'
-    },
-    {
-      title: 'Lorem impsum',
-      link: '/',
-      logo: 'logos/darkdev_turq.svg'
-    },
-  ]
+  import { useSWR } from 'sswr';
+
+const otherBoardgames = []
+  
 </script>
 
 
@@ -67,13 +29,13 @@
 
   <TargetAudience />
 
-  <Price />
+  <!-- <Price /> -->
 
   <Faq />
 
   <!-- <Free_desc /> -->
 
-  <OtherBoardgames {otherBoardgames}/>
+  <!-- <OtherBoardgames {otherBoardgames}> -->
 
   <Benefits />
 </main>
