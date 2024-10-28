@@ -5,6 +5,8 @@
     // import {  } from '$widgets';
     // import {  } from '$entities'
   export let otherBoardgames;
+
+  console.log(otherBoardgames)
 </script>
 
 <div class="section-200-100 bg-black wf-section">
@@ -25,11 +27,12 @@
 
     <div class="max-w-3xl flex flex-col justify-center mb-6">
       <div class="w-layout-grid grid-4col grid-col-30 mb-6">
-        {#each otherBoardgames as {logo, title, link}}
-          <a href="{link}" target="_blank">
-            <img src="/images/{logo}" loading="lazy" class='h-12' alt="{title} logo">
+        <!-- github -->
+        <!-- {#each otherBoardgames as {logo, title, officialSite}}
+          <a href="{officialSite}" target="_blank">
+            <img src="{logo}" loading="lazy" class='h-12' alt="{title} logo">
           </a>
-        {/each}
+        {/each} -->
 
         <!-- <div class="flex-vert-center-al">
             <div class="w-layout-grid grid-row-10">
