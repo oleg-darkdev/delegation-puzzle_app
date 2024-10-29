@@ -16,7 +16,7 @@
       </a>
 
       {#if showMenu}
-      <div class="menu-wrap">
+      <div class="menu-wrap" on:click={()=> showMenu = !showMenu}>
         <div class="menu-mobile">
           <div class="menu-grid">
             {#each navigation as {title, link}}
