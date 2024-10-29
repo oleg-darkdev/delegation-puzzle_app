@@ -38,9 +38,8 @@
 				<div class="overline txt-on-white">O grze</div>
 				<h2 class="h3-heading">Delegation puzzle - edukacyjna gra planszowa</h2>
 				<p class="paragraph txt-on-white">
-					Zapoznaje uczestników z praktyką skutecznego delegowania zadań
-					poprzez odkrywanie i stosowanie 7 poziomów delegowania, od pełnej kontroli do pełnej
-					autonomii.
+					Zapoznaje uczestników z praktyką skutecznego delegowania zadań poprzez odkrywanie i
+					stosowanie 7 poziomów delegowania, od pełnej kontroli do pełnej autonomii.
 				</p>
 
 				<p class="paragraph txt-on-white">
@@ -84,17 +83,21 @@
 				</div> -->
 			</div>
 			<img src="/images/sreenshot.png" loading="lazy" sizes="100vw" alt="" class="proj-mockup" />
-			<!-- <div class="ctm-proj-wrap right body-small">
+			<div class="ctm-proj-wrap right body-small">
 				<p class="italic">
-					“Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-					unknown printer took a galley of type and scrambled it to make a type specimen book.”
+					“Znalezienie odpowiedniego poziomu delegowania zadań wymaga zachowania równowagi. Zależy
+					to od poziomu dojrzałości zespołu i wpływu jego decyzji. Rozproszona kontrola w
+					organizacji jest osiągana, gdy delegowanie uprawnień jest jak najdalej w głąb systemu....”
 				</p>
 				<div class="w-layout-grid client-name-wrap mt-20 mb-30">
-					<div class="client-name">Lorem Ipsum has been</div>
-					<div class="caption">Lorem Ipsum has been &amp; Lorem Ipsum</div>
+					<div class="client-name">Jurgen Appelo</div>
+					<div class="caption">
+						Successful entrepreneur, Top 100 Leadership Speaker, Top 50 Management Expert, author of
+						4 books, junior in humility.
+					</div>
 				</div>
-				<a href="/" target="_blank" class="btn btn-white w-button">See results</a>
-			</div> -->
+				<a href="#levels"  class="btn btn-white w-button">7 poziomów delegowania</a>
+			</div>
 		</div>
 	</div>
 </section>

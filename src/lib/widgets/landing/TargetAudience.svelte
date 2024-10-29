@@ -7,15 +7,15 @@
   const targetAudience = [
     {
       title: 'Założycieli',
-      desc: `Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`
+      desc: `Odpowiednia dla założycieli małych firm i start-upów, ponieważ uczy, jak skutecznie rozdzielać zadania i obowiązki w zespole - kluczowa umiejętność dla pomyślnego rozwoju młodego biznesu. Jest to szczególnie ważne, gdy zasoby są ograniczone: właściwe delegowanie pozwala założycielom skupić się na strategicznych zadaniach bez utraty kontroli nad procesami.`
     },
     {
       title: 'Liderów',
-      desc: `Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`
+      desc: `Liderzy mogą zrozumieć, jak określić najbardziej odpowiedni poziom kontroli i autonomii - w oparciu o informacje zwrotne od zespołu, zachowując równowagę między zaufaniem a odpowiedzialnością.`
     },
     {
       title: 'Samoorganizujący się',
-      desc: `Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`
+      desc: `Nadaje się do samoorganizujących się zespołów, ponieważ pomaga uczestnikom rozwijać umiejętności niezależnego podejmowania decyzji i zrozumienia podziału odpowiedzialności i pomaga budować kulturę świadomego delegowania zadań. `
     },
   ]
 </script>
@@ -31,9 +31,9 @@
       <div class="overline">Czy jest <span class="txt-col-yellow">Delegation Puzzle</span> dla mnie odpowiedni?</div>
       <!-- For founders, small to medium sized businesses and people with ideas. -->
       <h3 class="h3-heading">Dla założycieli, małych i średnich firm, liderów zespołów, którzy chcą rozwijać kulturę delegowania zadań.</h3>
-      <p class="paragraph txt-on-dark">
+      <!-- <p class="paragraph txt-on-dark">
         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-      </p>
+      </p> -->
     </div>
 
     

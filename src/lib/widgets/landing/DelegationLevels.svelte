@@ -37,7 +37,7 @@
 			</p>
 
 			<!--  -->
-			<div class=" xl:grid-cols-2 grid lg:grid-cols-2 md:grid-cols-2 grid-col-1 gap-y-4 w-full">
+			<div class=" xl:grid-cols-2 grid lg:grid-cols-2 md:grid-cols-2 grid-col-2 gap-y-4 w-full">
 				{#each delegationLevels as level}
 					<div class="process-block max-w-sm">
 						<div class="txt-on-dark mt-10 mt-0-mob">0{level.id}</div>
