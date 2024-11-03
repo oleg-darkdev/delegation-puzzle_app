@@ -1,16 +1,17 @@
 <script lang="ts">
 	import { blur, crossfade, draw, fade, fly, scale, slide } from 'svelte/transition';
 	import { quintOut } from 'svelte/easing';
-
 	import { delegationLevels } from '$shared';
 	// import {  } from '$widgets';
 	import { DelegationsList, DelegationLevelCardApp } from '$entities';
 	import { stepInstruction } from '$stores/app';
 	import { derived } from 'svelte/store';
 
-	// let number = 0;
+	const START_DELEGATION_LEVELS_INSTRUCTION = 2;
 
-	const selectedLevel = derived(stepInstruction, ($stepInstruction) => $stepInstruction - 3);
+
+
+	const selectedLevelData = derived(stepInstruction, ($stepInstruction) => $stepInstruction - START_DELEGATION_LEVELS_INSTRUCTION);
 </script>
 
 {#if $stepInstruction < 10}
@@ -50,10 +51,11 @@
 		>
 			<DelegationsList {delegationLevels} />
 		</div>
-	{:else if $stepInstruction > 2 && $stepInstruction < 10}
-	<!-- {selectedLevel} -->
+	{:else if $stepInstruction > START_DELEGATION_LEVELS_INSTRUCTION && $stepInstruction < 10}
 		{#each delegationLevels as level, i (level.id)}
-			{#if $stepInstruction - 3 == i}
+		<!-- <h2>{$selectedLevelData} {i}</h2> -->
+
+			{#if $selectedLevelData == level.id}
 				<div
 					transition:blur={{
 						delay: 100,
@@ -64,7 +66,7 @@
 					}}
 					class=""
 				>
-					<DelegationLevelCardApp delegationLevel={delegationLevels[$stepInstruction - 3]} />
+					<DelegationLevelCardApp delegationLevel={delegationLevels[$selectedLevelData]} />
 				</div>
 			{/if}
 		{/each}
