@@ -7,16 +7,20 @@
 	import { stepInstruction } from '$stores/app';
 	import { derived } from 'svelte/store';
 
-	const START_DELEGATION_LEVELS_INSTRUCTION = 2;
+	const START_DELEGATION_LEVELS_INSTRUCTION = 2,
+		END_DELEGATION_LEVELS_INSTRUCTION = 9;
 
-
-
-	const selectedLevelData = derived(stepInstruction, ($stepInstruction) => $stepInstruction - START_DELEGATION_LEVELS_INSTRUCTION);
+	const selectedLevelData = derived(stepInstruction, ($stepInstruction) => {
+		console.log($stepInstruction);
+		// console.log($stepInstruction < 10)
+		if ($stepInstruction < END_DELEGATION_LEVELS_INSTRUCTION)
+			return ($stepInstruction = $stepInstruction - START_DELEGATION_LEVELS_INSTRUCTION);
+	});
 </script>
 
-{#if $stepInstruction < 10}
+{#if $stepInstruction < 9}
 	{#if $stepInstruction == 1}
-		<div transition:blur class="max-w-2xl mt-20 px-4">
+		<div transition:slide class="max-w-2xl mt-20 px-4">
 			<div class="overline">Poziomy delegowania</div>
 
 			<h3 class="h3-heading mb-20">7 poziomów delegowania to model symetryczny.</h3>
@@ -39,40 +43,21 @@
 			</p>
 		</div>
 	{:else if $stepInstruction == 2}
-		<div
-			transition:blur={{
-				delay: 100,
-				duration: 1000,
-				easing: quintOut,
-				inverse: true,
-				radius: 5
-			}}
-			class="overflow-y-scroll overflow-x-hidden"
-		>
+		<div transition:slide class="overflow-y-scroll overflow-x-hidden">
 			<DelegationsList {delegationLevels} />
 		</div>
-	{:else if $stepInstruction > START_DELEGATION_LEVELS_INSTRUCTION && $stepInstruction < 10}
+	{:else if $stepInstruction > START_DELEGATION_LEVELS_INSTRUCTION && $stepInstruction < END_DELEGATION_LEVELS_INSTRUCTION}
 		{#each delegationLevels as level, i (level.id)}
-		<!-- <h2>{$selectedLevelData} {i}</h2> -->
-
 			{#if $selectedLevelData == level.id}
-				<div
-					transition:blur={{
-						delay: 100,
-						duration: 1000,
-						easing: quintOut,
-						inverse: true,
-						radius: 5
-					}}
-					class=""
-				>
+				<div transition:slide class="">
 					<DelegationLevelCardApp delegationLevel={delegationLevels[$selectedLevelData]} />
 				</div>
 			{/if}
 		{/each}
 	{/if}
-{:else if $stepInstruction == 10}
-	<h2>end wscren</h2>
+{:else if $stepInstruction >= END_DELEGATION_LEVELS_INSTRUCTION}
+	<!-- <h2></h2> -->
+	<h3 class="h3-heading mb-20">Dziękuję za uwagę</h3>
 {/if}
 
 <style lang="postcss">

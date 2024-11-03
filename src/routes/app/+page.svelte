@@ -39,7 +39,7 @@
 
 						{#if $selectedMenu == 1}
 							<h2>///</h2>
-						{:else if $selectedMenu == 2 && $stepInstruction <= 10}
+						{:else if $selectedMenu == 2 && $stepInstruction <= 9}
 							<!-- <div class="grid grid-cols-2 gap-6 my-20"> -->
 							<PrevStepBtn bind:step={$stepInstruction} text="Poprzedni slajd" />
 
