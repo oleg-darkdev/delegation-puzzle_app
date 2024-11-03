@@ -4,7 +4,7 @@
     // import {  } from '$shared';
     // import {  } from '$widgets';
     // import {  } from '$entities'
-
+  // export let selectedMenu;
 </script>
 
 <footer class="footer wf-section">
@@ -19,9 +19,7 @@
         <div class="abs-container flex-hor-all-cent">
           <div class="footer-cta-wrap">
             <img src="/images/footer_doodle_arrow.svg" loading="lazy" alt="doodle arrow" class="footer-arrow">
-            <a href="#"  class="circle-cta w-inline-block">
-              <div class="btn-txt">Get started</div>
-            </a>
+            <slot></slot>
           </div>
         </div>
       </div>
