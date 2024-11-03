@@ -10,10 +10,10 @@
 
 <SEO title="App" />
 
-<div class="bg-black min-h-screen">
+<div class="bg-black h-screen">
 	{#if $selectedMenu}
 		<main
-			class="overflow-y-scroll overflow-x-hidden h-[85vh] py-20 flex flex-col justify-center items-center content-center"
+			class="overflow-y-scroll overflow-x-hidden h-[95vh] py-20 flex flex-col justify-center items-center content-center"
 		>
 			{#if $selectedMenu == 1}
 				<SmallHero />
@@ -23,10 +23,12 @@
 		</main>
 
 		<footer class="fixed bottom-0 left-0 w-full">
-			<div class=" w-full max-w-4xl py-10 mx-auto">
+			<div class="w-full max-w-4xl py-10">
 				{#if $selectedMenu < 2}
-					<button on:click={() => ($selectedMenu = 1)} class="btn w-button">Prezentacja</button>
-					<button on:click={() => ($selectedMenu = 2)} class="btn w-button">Instrukcja</button>
+					<div class="grid grid-cols-2 gap-x-8 px-4">
+						<button on:click={() => ($selectedMenu = 1)} class="btn w-button">Prezentacja</button>
+						<button on:click={() => ($selectedMenu = 2)} class="btn w-button">Instrukcja</button>
+					</div>
 				{:else}
 					<!-- grid grid-cols-3 gap-x-4 -->
 					<div class="grid grid grid-cols-[18%_35%_35%] gap-x-4">
