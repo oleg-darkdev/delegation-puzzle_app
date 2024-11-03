@@ -11,7 +11,7 @@
 <div class="max-w-2xl mt-20 px-4">
 	<div class="overline">Poziomy delegowania</div>
 
-	<h3 class="h3-heading">7 poziomów delegowania to model symetryczny.</h3>
+	<h3 class="h3-heading mb-20">7 poziomów delegowania to model symetryczny.</h3>
 	<p class="paragraph mb-6 txt-on-dark">
 		Organizacje są złożonymi systemami, a badania pokazują, że takie systemy często działają
 		najlepiej, gdy kontrola jest rozproszona. Oznacza to, że władza jest przekazywana do wszystkich

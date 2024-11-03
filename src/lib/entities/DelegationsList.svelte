@@ -20,7 +20,7 @@
 					<span class={level.textColor}>{level.title}</span>
 					<img src="/images/{level.icon}" class="h-6 w-auto mb-1" alt="" />
 				</h3>
-				<p class="txt-on-dark">{level.subTitle}</p>
+				<p class="txt-on-dark max-w-[200px]">{level.subTitle}</p>
 				<!--  {level.shortDesc}  -->
 			</div>
 		{/each}
