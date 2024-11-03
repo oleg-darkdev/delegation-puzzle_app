@@ -6,4 +6,9 @@
 	export let step, text;
 </script>
 
-<button on:click={prevStep} class="btn btn-black w-button">{text}</button>
+<button on:click={prevStep} class="btn btn-black w-button"
+	><span class="hidden sm:inline">{text}</span> <span class="inline sm:hidden">&lt;</span></button
+>
+
+<style lang="postcss">
+</style>
