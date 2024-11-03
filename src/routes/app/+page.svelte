@@ -1,4 +1,6 @@
 <script lang="ts">
+
+
 	import { SEO, NextStepBtn, PrevStepBtn, BackMenuBtn } from '$shared';
 	import { SmallHero, Footer, InstructionScreenApp } from '$widgets';
 	// import {} from '$entities';
@@ -23,7 +25,7 @@
 		</main>
 
 		<footer class="fixed bottom-0 left-0 w-full">
-			<div class="w-full max-w-4xl py-10">
+			<div class="w-full max-w-4xl mx-auto py-10">
 				{#if $selectedMenu < 2}
 					<div class="grid grid-cols-2 gap-x-8 px-4">
 						<button on:click={() => ($selectedMenu = 1)} class="btn w-button">Prezentacja</button>
@@ -37,7 +39,7 @@
 
 						{#if $selectedMenu == 1}
 							<h2>///</h2>
-						{:else}
+						{:else if $selectedMenu == 2 && $stepInstruction <= 10}
 							<!-- <div class="grid grid-cols-2 gap-6 my-20"> -->
 							<PrevStepBtn bind:step={$stepInstruction} text="Poprzedni slajd" />
 
