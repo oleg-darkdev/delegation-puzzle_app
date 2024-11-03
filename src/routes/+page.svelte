@@ -1,47 +1,68 @@
 <script lang="ts">
-	import { SEO } from '$shared';
-  // Free_desc,
-	import { Footer, Header, About, Benefits, Faq, Price, OtherBoardgames, TargetAudience, DelegationLevels,  BigHero, SmallHero,  } from '$widgets';
-  // import {  } from ''
+	import { SEO, delegationLevels } from '$shared';
+	// Free_desc,
+	import {
+		Footer,
+		Header,
+		About,
+		Benefits,
+		Faq,
+		Price,
+		OtherBoardgames,
+		TargetAudience,
+		DelegationLevels,
+		BigHero,
+		SmallHero
+	} from '$widgets';
+	// import {  } from '$widgets';
+	import { TheoryDelegationLevels, DelegationsList } from '$entities';
 
-  export let data;
+	export let data;
 
+	import { useSWR } from 'sswr';
 
-  import { useSWR } from 'sswr';
-
-const otherBoardgames = []
-  
+	const otherBoardgames = [];
 </script>
 
-
-<SEO title="Home"/>
+<SEO title="Home" />
 
 <Header />
 
 <main class="main">
-  <!-- <SmallHero /> -->
+	<!-- <SmallHero /> -->
 
-  <BigHero />
+	<BigHero />
 
-  <About />
+	<About />
 
-  <DelegationLevels />
+	<DelegationLevels>
+		<div class="" slot="top">
+			<TheoryDelegationLevels {delegationLevels} />
+		</div>
 
-  <TargetAudience />
+		<div class="" slot="bottom">
+			<DelegationsList {delegationLevels} />
+		</div>
+	</DelegationLevels>
 
-  <!-- <Price /> -->
+	<TargetAudience />
 
-  <Faq />
+	<!-- <Price /> -->
 
-  <!-- <Free_desc /> -->
+	<Faq />
 
-  <!-- <OtherBoardgames {otherBoardgames}> -->
+	<!-- <Free_desc /> -->
 
-  <Benefits />
+	<!-- <OtherBoardgames {otherBoardgames}> -->
+
+	<Benefits />
 </main>
 
-<Footer />
+<Footer>
+	<a href="/app" class="circle-cta w-inline-block">
+		<div class="btn-txt">Get started</div>
+	</a>
+</Footer>
 
 <style lang="postcss">
-
 </style>
