@@ -59,7 +59,7 @@
 </main>
 
 <Footer>
-	<a href="/app" class="circle-cta w-inline-block">
+	<a href="/app" target="_blank" class="circle-cta w-inline-block">
 		<div class="btn-txt">Get started</div>
 	</a>
 </Footer>

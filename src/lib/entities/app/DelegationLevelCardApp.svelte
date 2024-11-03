@@ -1,7 +1,5 @@
 <script lang="ts">
 	export let delegationLevel;
-
-	console.log(delegationLevel);
 </script>
 
 <div class="max-w-2xl mb-20 px-6">
@@ -28,26 +26,9 @@
 			<p class="txt-on-dark paragraph mb-2">{desc}</p>
 		{/each}
 	</div>
-
-	<!-- 
-	
-	
-	{
-		title: `Powiedzieć`,
-		subTitle: 'Powiem im to',
-		// title: `Tell`,
-		// subTitle: 'I will tell them',
-		shortDesc: `Podejmujesz decyzję za innych i możesz wyjaśnić swoją motywację. Dyskusja na ten temat nie jest ani pożądana, ani zakładana.`,
-		desc: [
-			`Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.`,
-			`Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`
-		],
-		id: 1,
-		textColor: 'text-tell',
-		bgColor: 'bg-sell',
-		icon: 'tell_icon.svg',
-		img: 'logo.svg'
-	},
-	
-	-->
 </div>
+
+
+<style lang="postcss">
+</style>
+

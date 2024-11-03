@@ -22,7 +22,7 @@
 						<p class="txt-on-dark">1. Kup lub wydrukuj zestaw gry planszowej.</p>
 						<p class="txt-on-dark">2. Zaloguj się do swojego konta w aplikacji.</p>
 
-						<a href="/app" class="btn w-button">Rozpocząć delegowanie</a>
+						<a href="/app" target="_blank"  class="btn w-button">Rozpocząć delegowanie</a>
 					</div>
 				</div>
 
