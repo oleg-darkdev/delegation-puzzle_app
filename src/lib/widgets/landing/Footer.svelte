@@ -4,7 +4,6 @@
     // import {  } from '$shared';
     // import {  } from '$widgets';
     // import {  } from '$entities'
-  // export let selectedMenu;
 </script>
 
 <footer class="footer wf-section">
