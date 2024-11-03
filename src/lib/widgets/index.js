@@ -18,7 +18,7 @@ import TargetAudience from './landing/TargetAudience.svelte';
 // import ComponenTemplate from './landing/ComponenTemplate.svelte';
 
 // app
-// import ComponenTemplate from './app/ComponenTemplate.svelte';
+import InstructionScreenApp from './app/InstructionScreenApp.svelte';
 // import ComponenTemplate from './app/ComponenTemplate.svelte';
 // import ComponenTemplate from './app/ComponenTemplate.svelte';
 // import ComponenTemplate from './app/ComponenTemplate.svelte';
@@ -27,6 +27,11 @@ import TargetAudience from './landing/TargetAudience.svelte';
 // import ComponenTemplate from './app/ComponenTemplate.svelte';
 
 export {
+	// app
+	InstructionScreenApp,
+	
+	
+	// landing
 	Footer,
 	Header,
 	Benefits,

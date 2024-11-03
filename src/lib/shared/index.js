@@ -1,7 +1,7 @@
 // ui
 import SEO from './ui/SEO.svelte';
-// import ComponenTemplate from './data/ComponenTemplate';
-// import ComponenTemplate from './data/ComponenTemplate';
+import NextStepBtn from './ui/NextStepBtn.svelte';
+import PrevStepBtn from './ui/PrevStepBtn.svelte';
 // import ComponenTemplate from './data/ComponenTemplate';
 
 // data
@@ -13,4 +13,4 @@ import delegationLevels from './data/delegationLevels';
 // utils
 // import { fromBucket, from, auth, storage, supabaseClient } from './utils/supaClient';
 
-export {  SEO, faq, navigation, delegationLevels };
+export { SEO, faq, navigation, delegationLevels, NextStepBtn, PrevStepBtn };
