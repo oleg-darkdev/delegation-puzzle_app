@@ -1,8 +1,9 @@
 <script lang="ts">
+
 	export let delegationLevel;
 </script>
 
-<div class="max-w-2xl mb-20 px-6">
+<div  class="max-w-2xl mb-20 px-6">
 	<!-- <div class="process-block lg:max-w-2xl"> -->
 	<div class="flex flex-row">
 		<div class="txt-on-dark mt-0-mob mr-4 mt-10">0{delegationLevel.id}</div>

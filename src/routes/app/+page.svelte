@@ -53,7 +53,7 @@
 	{:else}
 		<Footer>
 			<button on:click={() => ($selectedMenu = true)} class="z-20 bg-black circle-cta w-inline-block">
-				<div class="btn-txt">Zacząć delegować</div>
+				<div class="btn-txt">Zacząć <br/> delegować</div>
 			</button>
 		</Footer>
 	{/if}
