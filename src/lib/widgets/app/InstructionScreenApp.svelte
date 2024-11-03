@@ -6,6 +6,11 @@
 	// import {  } from '$widgets';
 	import { DelegationsList, DelegationLevelCardApp } from '$entities';
 	import { stepInstruction } from '$stores/app';
+	import { derived } from 'svelte/store';
+
+	// let number = 0;
+
+	const selectedLevel = derived(stepInstruction, ($stepInstruction) => $stepInstruction - 3);
 </script>
 
 {#if $stepInstruction < 10}
@@ -45,97 +50,24 @@
 		>
 			<DelegationsList {delegationLevels} />
 		</div>
-	{:else if $stepInstruction == 3}
-		<div
-			transition:blur={{
-				delay: 100,
-				duration: 1000,
-				easing: quintOut,
-				inverse: true,
-				radius: 5
-			}}
-			class=""
-		>
-			<DelegationLevelCardApp delegationLevel={delegationLevels[0]} />
-		</div>
-	{:else if $stepInstruction == 4}
-		<div
-			transition:blur={{
-				delay: 100,
-				duration: 1000,
-				easing: quintOut,
-				inverse: true,
-				radius: 5
-			}}
-			class="overflow-y-scroll overflow-x-hidden"
-		>
-			<DelegationLevelCardApp delegationLevel={delegationLevels[1]} />
-		</div>
-	{:else if $stepInstruction == 5}
-		<div
-			transition:blur={{
-				delay: 100,
-				duration: 1000,
-				easing: quintOut,
-				inverse: true,
-				radius: 5
-			}}
-			class="overflow-y-scroll overflow-x-hidden"
-		>
-			<DelegationLevelCardApp delegationLevel={delegationLevels[2]} />
-		</div>
-	{:else if $stepInstruction == 6}
-		<div
-			transition:blur={{
-				delay: 100,
-				duration: 1000,
-				easing: quintOut,
-				inverse: true,
-				radius: 5
-			}}
-			class="overflow-y-scroll overflow-x-hidden"
-		>
-			<DelegationLevelCardApp delegationLevel={delegationLevels[3]} />
-		</div>
-	{:else if $stepInstruction == 7}
-		<div
-			transition:blur={{
-				delay: 100,
-				duration: 1000,
-				easing: quintOut,
-				inverse: true,
-				radius: 5
-			}}
-			class="overflow-y-scroll overflow-x-hidden"
-		>
-			<DelegationLevelCardApp delegationLevel={delegationLevels[4]} />
-		</div>
-	{:else if $stepInstruction == 8}
-		<div
-			transition:blur={{
-				delay: 100,
-				duration: 1000,
-				easing: quintOut,
-				inverse: true,
-				radius: 5
-			}}
-			class="overflow-y-scroll overflow-x-hidden"
-		>
-			<DelegationLevelCardApp delegationLevel={delegationLevels[5]} />
-		</div>
-	{:else if $stepInstruction == 9}
-		<div
-			transition:blur={{
-				delay: 100,
-				duration: 1000,
-				easing: quintOut,
-				inverse: true,
-				radius: 5
-			}}
-			class="overflow-y-scroll overflow-x-hidden"
-		>
-			<DelegationLevelCardApp delegationLevel={delegationLevels[6]} />
-		</div>
+	{:else if $stepInstruction > 2 && $stepInstruction < 10}
+	<!-- {selectedLevel} -->
+		{#each delegationLevels as level, i (level.id)}
+			{#if $stepInstruction - 3 == i}
+				<div
+					transition:blur={{
+						delay: 100,
+						duration: 1000,
+						easing: quintOut,
+						inverse: true,
+						radius: 5
+					}}
+					class=""
+				>
+					<DelegationLevelCardApp delegationLevel={delegationLevels[$stepInstruction - 3]} />
+				</div>
+			{/if}
+		{/each}
 	{/if}
 {:else if $stepInstruction == 10}
 	<h2>end wscren</h2>
