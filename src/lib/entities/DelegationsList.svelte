@@ -4,7 +4,9 @@
 	export let delegationLevels;
 </script>
 
-<div class="flex flex-row pt-20">
+<h4 class="h4-heading mt-6 py-4 text-center">Krótki opis poziomów delegowania.</h4>
+
+<div class="flex flex-row ">
 	<img
 		src="/images/delegation_levels.svg"
 		loading="lazy"

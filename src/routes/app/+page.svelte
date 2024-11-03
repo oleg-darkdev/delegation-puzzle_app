@@ -13,7 +13,7 @@
 <div class="bg-black h-screen">
 	{#if $selectedMenu}
 		<main
-			class="overflow-y-scroll overflow-x-hidden h-[95vh] py-20 flex flex-col justify-center items-center content-center"
+			class="overflow-y-scroll overflow-x-hidden h-[94vh] py-20 flex flex-col justify-center items-center content-center"
 		>
 			{#if $selectedMenu == 1}
 				<SmallHero />
@@ -31,7 +31,8 @@
 					</div>
 				{:else}
 					<!-- grid grid-cols-3 gap-x-4 -->
-					<div class="grid grid grid-cols-[18%_35%_35%] gap-x-4">
+					<div class="grid grid grid-cols-[18%_35%_35%] gap-x-4 ">
+						
 						<BackMenuBtn />
 
 						{#if $selectedMenu == 1}
@@ -49,7 +50,7 @@
 		</footer>
 	{:else}
 		<Footer>
-			<button on:click={() => ($selectedMenu = true)} class="circle-cta w-inline-block">
+			<button on:click={() => ($selectedMenu = true)} class="z-20 bg-black circle-cta w-inline-block">
 				<div class="btn-txt">Zacząć delegować</div>
 			</button>
 		</Footer>

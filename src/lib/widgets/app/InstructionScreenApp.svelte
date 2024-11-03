@@ -33,9 +33,9 @@
 
 		<!-- </section> -->
 	{:else if $stepInstruction == 2}
-		<h5 class="h5-heading mx-auto py-4 text-center">Krótki opis poziomów delegowania.</h5>
-
 		<div class="overflow-y-scroll overflow-x-hidden">
+			
+
 			<DelegationsList {delegationLevels} />
 		</div>
 	{:else if $stepInstruction == 3}
